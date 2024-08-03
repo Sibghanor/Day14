@@ -1,0 +1,128 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fafafa;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.phone-image img {
+    width: 380px;
+    height: auto;
+    margin-right: 30px;
+}
+
+
+.login-form {
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    padding: 20px 40px;
+    text-align: center;
+    width: 350px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 175px;
+    margin-bottom: 20px;
+}
+
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form button.fb-login {
+    background-color: #385185;
+    margin-bottom: 10px;
+}
+
+.divider {
+    margin: 20px 0;
+    color: #8e8e8e;
+    position: relative;
+}
+
+.divider::before, .divider::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    height: 1px;
+    background-color: #dbdbdb;
+}
+
+.divider::before {
+    left: 0;
+}
+
+.divider::after {
+    right: 0;
+}
+
+.forgot-password {
+    font-size: 12px;
+    color: #385185;
+    margin-top: 10px;
+    display: block;
+    text-decoration: none;
+}
+
+
+.signup-link {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.signup-link a {
+    color: #0095f6;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.get-app {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #8e8e8e;
+}
+
+.app-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.app-links img {
+    width: 135px;
+    height: auto;
+    margin: 0 5px;
+}
